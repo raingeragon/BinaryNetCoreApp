@@ -43,8 +43,8 @@ namespace BinaryNetCoreApp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, SimpleModelContext context, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logs.txt"));
-            var logger = loggerFactory.CreateLogger("FileLogger");
+            //loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logs.txt"));
+            //var logger = loggerFactory.CreateLogger("FileLogger");
             SimpleModelService service = new SimpleModelService(context);
             DbInitializer dbinitializer = new DbInitializer(service);
             dbinitializer.Initialize();
