@@ -1,0 +1,39 @@
+03.08.2017 12:28:58 Proccessed GET request with SimpleModels db
+03.08.2017 12:38:51 Proccessed GET request with SimpleModels db
+03.08.2017 12:39:40 Proccessed GET request with SimpleModels db
+03.08.2017 12:40:21 DELETE request successfully deleted SimpleModel with id=1
+03.08.2017 12:40:26 DELETE request successfully deleted SimpleModel with id=1003
+03.08.2017 12:40:30 DELETE request successfully deleted SimpleModel with id=2003
+03.08.2017 12:40:36 Proccessed GET request with SimpleModels db
+03.08.2017 12:40:47 DELETE request successfully deleted SimpleModel with id=3003
+03.08.2017 12:40:53 Proccessed GET request with SimpleModels db
+03.08.2017 12:41:04 Proccessed GET request with SimpleModels db
+03.08.2017 12:41:15 DELETE request successfully deleted SimpleModel with id=3004
+03.08.2017 12:41:21 Proccessed GET request with SimpleModels db
+03.08.2017 12:43:14 Proccessed GET request with SimpleModels db
+03.08.2017 12:43:34 DELETE request successfully deleted SimpleModel with id=3005
+erkjgerghejkrgekrgke
+03.08.2017 12:43:42 Proccessed GET request with SimpleModels db
+03.08.2017 12:56:01 Proccessed GET request with SimpleModels db
+03.08.2017 12:56:03 Proccessed GET request with SimpleModels db
+03.08.2017 12:56:11 DELETE request successfully deleted SimpleModel with id=4003
+03.08.2017 12:56:16 Proccessed GET request with SimpleModels db
+03.08.2017 12:56:34 Proccessed GET request with SimpleModels db
+03.08.2017 12:58:24Initialized Simple Model db
+Compiling query model: 
+'from SimpleModel <generated>_0 in DbSet<SimpleModel>
+select <generated>_0'
+Optimized query model: 
+'from SimpleModel <generated>_0 in DbSet<SimpleModel>
+select <generated>_0'
+TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<SimpleModel> _ShapedQuery(
+    queryContext: queryContext, 
+    shaperCommandContext: SelectExpression: 
+        SELECT [s].[Id], [s].[Description], [s].[Name], [s].[Price]
+        FROM [SimpleModels] AS [s]
+    , 
+    shaper: UnbufferedEntityShaper<SimpleModel>
+)
+
+Opening connection to database 'SimpleModels' on server '(localdb)\mssqllocaldb'.
